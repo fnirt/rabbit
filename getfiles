@@ -1,0 +1,11 @@
+#!/bin/bash 
+mkdir $1
+cd $1
+
+for ((i = 1; i < 309; i += 1)) do 
+wget -nc -nv http://s3.amazonaws.com/karotz/moods/$1/${i}.mp3 
+echo ${i}
+done 
+cd ..
+echo "Done."
+

@@ -1,0 +1,5 @@
+#!/bin/bash 
+r=$(( $RANDOM % 302 )); echo $r
+cd /home/pi/rabbit
+omxplayer /home/pi/rabbit/uk/$r.mp3
+
