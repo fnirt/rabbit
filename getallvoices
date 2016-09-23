@@ -1,0 +1,7 @@
+#!/bin/bash
+./getfiles br
+./getfiles de
+./getfiles es
+./getfiles fr
+./getfiles uk
+./getfiles us
